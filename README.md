@@ -20,4 +20,4 @@ It is an api designed to shorten URL's like bit.ly, it is made on NodeJS.
     "longUrl":"YOUR_URL"
   }
   ```
-  then visit http://localhost:3001/your_short_url.
+  then visit your_short_url in the response.
