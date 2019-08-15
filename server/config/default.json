@@ -1,4 +1,4 @@
 {
     "URI":"mongodb+srv://test:testest@cluster0-pnwbn.mongodb.net/test?retryWrites=true&w=majority",
-    "baseUrl":"http://localhost:3001"
+    "baseUrl":"https://ancient-atoll-74988.herokuapp.com"
 }

@@ -6,6 +6,10 @@ const config = require('config')
 
 const Url = require('../model/url') 
 
+router.get('/',(req, res) => {
+    res.json({message : "Home Page"});
+})
+
 router.post('/shorten',async (req,res)=>{
     const longUrl = req.body.longUrl
     const baseUrl = config.get('baseUrl')
@@ -15,6 +19,7 @@ router.post('/shorten',async (req,res)=>{
     const urlCode = shortid.generate()
     console.log(longUrl);
     
+    console.log(baseUrl);
     if(validUrl.isUri(longUrl)){
         try{
             let url = await Url.findOne({longUrl})
