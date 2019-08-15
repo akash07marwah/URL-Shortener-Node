@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h1>Link Shortener </h1>
+</div>
+<div class="container">
+<div class="row"> 
+    <div class="col-md-2">
+    </div>
+    <form (ngSubmit)="onSubmit()">
+   <div class="col-md-6"> 
+      <input [(ngModel)]="uri" class="form-control" placeholder="Paste Your URL Here.." type="text" [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="col-md-2">
+    <button type="submit" class="btn btn-primary">
+      Shorten
+    </button>
+  </div>
+  <div class="col-md-2">
+  </div>
+  </form>
+</div>  
+</div>
+
+<p><br></p>
+
+<div *ngIf="shortUrl" class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6 text-center">
+      <h4>Your Shortened URL :</h4>
+      <br>
+      <!-- <h4>{{ shortUrl }}</h4> -->
+      <a class="link" target="_blank" href="{{shortUrl}}">{{shortUrl}}</a>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>

@@ -1,40 +1,27 @@
-# URL-Shortener-Node
-It is an api designed to shorten URL's like bit.ly, it is made on NodeJS and Dockerized by Docker.
+# URLShortener
 
-# Initialization
- <h3> Docker Initialization </h3>
- To build docker files and run the docker images install docker from here: https://docs.docker.com/install/
-  After installing you can directly run the command:
-  
-  ```
-  docker run akashmarwah007/redis
-  ```
-  
-  or you can go to the root folder and run:
-  ```
-  docker build .
-  ```
-  on the terminal and copy the id generated and run the command:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
-  ```
-  docker run <ID>
-  ```
- <h3> Node Initialization </h3>
- If node is not installed on your system, download it from here: https://nodejs.org/en/
- then go into the folder and on your terminal run the command:
- ```
- npm install
- ```
- this installa all the dependencies and now to run the server :
-  ```
-  npm start
-  ```
-  , also go to https://www.mongodb.com/ and create a Database first and <br>
-  now you can test it with Postman ( https://www.getpostman.com/downloads/ ) <br>
-  now first send the post request to http://localhost:3001/api/url/shorten in the format:
-  ```
-  {
-    "longUrl":"YOUR_URL"
-  }
-  ```
-  then visit your_short_url in the response.
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
