@@ -10,7 +10,7 @@ export class ApiService {
      
   }
   postUrl(url:String){
-    return this.http.post("https://ancient-atoll-74988.herokuapp.com/api/url/shorten",{
+    return this.http.post("https://bit-py.herokuapp.com/api/url/shorten",{
       longUrl:url
     });
   }
