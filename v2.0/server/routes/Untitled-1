@@ -1,0 +1,7 @@
+  // console.log(longUrl.slice(0,2))
+    // if(longUrl.startsWith("https://")){
+    //     longUrl = longUrl.slice(0,8) + "www." + longUrl.slice(8,-1)
+    // }
+    // else if(longUrl.startsWith("http://")){
+    //     longUrl = longUrl.slice(0,7) + "www." + longUrl.slice(7,-1)
+    // }

@@ -1,0 +1,4 @@
+{
+    "mongo_id":"mongodb+srv://test:testest@cluster0-0ib9l.mongodb.net/test?retryWrites=true&w=majority",
+    "base_url":"http://localhost:3001"
+}
