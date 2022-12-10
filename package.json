@@ -21,7 +21,7 @@
     "bootstrap": "^3.4.1",
     "config": "^3.2.2",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.6.9",
     "rxjs": "~6.4.0",
     "shortid": "^2.2.14",
